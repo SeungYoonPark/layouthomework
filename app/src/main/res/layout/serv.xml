@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".servActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/a1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="54dp"
+            android:layout_height="67dp"
+            android:src="@drawable/settings"
+            tools:layout_editor_absoluteX="273dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <ImageView
+            android:layout_width="59dp"
+            android:layout_height="58dp"
+            android:src="@drawable/cancel"
+            tools:layout_editor_absoluteX="347dp"
+            tools:layout_editor_absoluteY="5dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/a2"
+        app:layout_constraintTop_toBottomOf="@+id/a1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:src="@drawable/ic_launcher_foreground"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="내이름"
+            tools:layout_editor_absoluteX="108dp"
+            tools:layout_editor_absoluteY="32dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="사용중인 서비스"
+            tools:layout_editor_absoluteX="108dp"
+            tools:layout_editor_absoluteY="53dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="오배캠"
+            tools:layout_editor_absoluteX="223dp"
+            tools:layout_editor_absoluteY="53dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="내배캠"
+            tools:layout_editor_absoluteX="275dp"
+            tools:layout_editor_absoluteY="53dp" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/a33"
+        android:layout_width="412dp"
+        android:layout_height="52dp"
+        app:layout_constraintTop_toBottomOf="@+id/a2"
+        tools:layout_editor_absoluteX="0dp">
+
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="38dp"
+            android:src="@drawable/person_outline"
+            tools:layout_editor_absoluteX="58dp"
+            tools:layout_editor_absoluteY="7dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="회원정보관리"
+            tools:layout_editor_absoluteX="99dp"
+            tools:layout_editor_absoluteY="15dp" />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="42dp"
+            android:src="@drawable/logout"
+            tools:layout_editor_absoluteX="197dp"
+            tools:layout_editor_absoluteY="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="로그아웃"
+            tools:layout_editor_absoluteX="237dp"
+            tools:layout_editor_absoluteY="15dp" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <View
+        android:id="@+id/a3"
+        app:layout_constraintTop_toBottomOf="@+id/a33"
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:background="#E1DCDC"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="462dp" />
+
+
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/a4"
+        android:layout_width="412dp"
+        android:layout_height="45dp"
+        app:layout_constraintTop_toBottomOf="@+id/a3">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="고객지원"
+            tools:layout_editor_absoluteX="35dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="매장통계"
+            tools:layout_editor_absoluteX="310dp"
+            tools:layout_editor_absoluteY="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="영상보기"
+            tools:layout_editor_absoluteX="173dp"
+            tools:layout_editor_absoluteY="15dp" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/a5"
+        android:layout_width="410dp"
+        android:layout_height="282dp"
+        app:layout_constraintTop_toBottomOf="@+id/a4">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="공지사항"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="사용방법안내"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="61dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A/S접수"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="95dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1:1문의"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="131dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="채팅상담"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="166dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="임시 비밀번호 설정"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="200dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="이달의 안전팁"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="245dp" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/a6"
+        android:layout_width="410dp"
+        android:layout_height="40dp"
+        app:layout_constraintTop_toBottomOf="@+id/a5">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="모바일 고객센터 방문"
+            tools:layout_editor_absoluteX="144dp"
+            tools:layout_editor_absoluteY="10dp" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/a7"
+        android:layout_width="413dp"
+        android:layout_height="92dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintTop_toBottomOf="@+id/a6"
+        tools:layout_editor_absoluteX="0dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/black"
+            android:src="@drawable/ic_launcher_foreground"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="홍보 배너 영역"
+            tools:layout_editor_absoluteX="182dp"
+            tools:layout_editor_absoluteY="36dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="360X80"
+            tools:layout_editor_absoluteX="182dp"
+            tools:layout_editor_absoluteY="57dp" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/a8"
+        android:layout_width="412dp"
+        android:layout_height="40dp"
+        app:layout_constraintTop_toBottomOf="@+id/a7">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="이용약관"
+            tools:layout_editor_absoluteX="138dp"
+            tools:layout_editor_absoluteY="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="개인정보처리방침"
+            tools:layout_editor_absoluteX="225dp"
+            tools:layout_editor_absoluteY="10dp" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
